@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400');
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(https://source.unsplash.com/collection/980677/1600x900); */
+    width: 100%;
+    text-transform: uppercase;
+    background:#fff;
+	background-size: cover;
+	background: url(../images/banner1.jpg)no-repeat 0px 0px; 
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+   
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.80);
+    color: black;
+    max-width: 40rem;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-weight: 200;
+}
+
+
+.music_play {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.music_play ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.music_play li {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
+.music_play a {
+    color: white;
+    text-decoration: none;
+}
+
+.music_play>* {
+    display: inline-block;
+}
+
+.music_play .player {
+    position: absolute;
+    right: 1rem;
+}
+
+.music_play .player a {
+    font-size: 1.2rem;
+}
+
+.music_play .player a:hover {
+    color: black;
+}
+
+.music_play .player a>span {
+    display: none;
+}
